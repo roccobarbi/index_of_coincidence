@@ -1,10 +1,10 @@
 class LetterCounter:
-    def __int__(self):
-        self.text = ""
-        self.counter = {}
-
     def __init__(self, text):
         self.text = text
+        self.counter = {}
+
+    def __init__(self):
+        self.text = ""
         self.counter = {}
 
     def count(self):
