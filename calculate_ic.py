@@ -7,7 +7,6 @@ def main(args):
     if len(args) < 1:
         raise Exception("no arguments passed")
     counter = LetterCounter()
-    text = ""
     with open(args[0], "r") as infile:
         text = infile.read()
         counter.set_text(text)
